@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    width: 98vw;
+}
+#cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+   
+    .z{
+        height: 400px;
+        width: 250px;
+    }
+    #card1{
+       
+    transform-style: preserve-3d;
+    transform :perspective(300px) rotateY(15deg);
+      margin-right: -20px;
+      z-index: -2;
+    }
+    #card2{
+       
+        transform-style: preserve-3d;
+        transform :perspective(300px) rotateY(15deg);
+        margin-right: -20px;
+        z-index: -1;
+    
+        }
+        #card4{
+       
+            transform-style: preserve-3d;
+            transform :perspective(300px) rotateY(-15deg);
+            margin-left: -20px;
+            z-index: -1;
+            }
+            #card5{
+               
+                transform-style: preserve-3d;
+                transform :perspective(300px) rotateY(-15deg);
+                margin-left: -20px;
+                z-index: -2;
+                }
+}
